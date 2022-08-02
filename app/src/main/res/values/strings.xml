@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChattApp</string>
+    <string name="chats">CHATS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calls">Calls</string>
+    <string name="this_is_send_message">This is send message</string>
+    <string name="do_you_wants_to_delete_message">Do you wants to delete message</string>
+</resources>

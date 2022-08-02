@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/edt_logo"
+        android:layout_width="206dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/caht" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/login_shap"
+        android:layout_marginEnd="53dp"
+        android:hint="Email"
+        android:padding="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_logo" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="53dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/login_shap"
+        app:layout_constraintTop_toBottomOf="@+id/edt_email"
+        android:hint="Password"
+        android:padding="13dp"/>
+
+    <Button
+        android:id="@+id/edt_login"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="138dp"
+        android:background="@drawable/login_shap"
+        android:backgroundTint="#105947"
+        android:text="LOGIN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_password" />
+
+    <Button
+        android:id="@+id/edt_signup"
+        android:layout_width="139dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="138dp"
+        android:text="SINGUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_login" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
