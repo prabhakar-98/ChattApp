@@ -4,12 +4,11 @@ A Android chat app built with Realtime Firebase and Firebase Cloud. It is clone 
 
 
 
+**Login**
 
+<img src="https://user-images.githubusercontent.com/101570374/192275752-de4baf70-e375-454c-a10a-78f91c2d1ad1.jpg" width="250">
 
-
-
-
-![Screenshot_20220926_163539](https://user-images.githubusercontent.com/101570374/192265127-8e5f8007-5e5d-4821-9071-e62ad111a02b.jpg)
+<img src="https://user-images.githubusercontent.com/101570374/192265127-8e5f8007-5e5d-4821-9071-e62ad111a02b.jpg" width="250">
 
 ## Tech Stack
 **Navigation component :** one activity contains multiple fragments instead of creating multiple activites.
